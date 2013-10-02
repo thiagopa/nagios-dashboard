@@ -1,0 +1,335 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: normal;
+  margin: auto;
+}
+
+h2, article {
+ margin-left : 50px;
+}
+
+body #aad-header, body .dasher-toolbar, #aad-content {
+  width: 950px !important;
+  margin: auto;
+}
+
+#aad-header-container {
+  background: #EEE url(header.png) repeat-x;
+  height: 119px;
+  margin-top: -1px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  display: inline-block;
+}
+
+#aad-header {
+  height: 86px;
+  top: 0;
+  position: relative;
+}
+
+#aad-header h1 {
+  font: 26px/43px 'droid sans',arial,sans-serif;
+  left: 20px;
+  letter-spacing: -1px;
+  text-shadow: 1px 1px 1px #0F4DB8;
+  top: 29px;
+  width: 50%;
+  display: block;
+  position: relative;
+  color: white;
+}
+
+#aad-header img {
+  float: left;
+  padding: 0 10px 0 0;
+}
+
+#aad-content {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.aad-issuegrid {
+  border: 1px solid #bbcced;
+  margin: 10px 0 0 0;
+  font-size: 15px;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.aad-issuegrid td.aad-header {
+  background-color: #e5ecf9;
+  text-align: left;
+  vertical-align: middle;
+  height: 26px;
+}
+
+.aad-issuegrid td.aad-body {
+  font-size: 13px;
+  vertical-align: top;
+  border-top: 1px solid #bbcced;
+}
+
+.aad-issuegrid td.aad-icon {
+  padding: 0.4em 0.25em 0.5em 0.5em;
+  vertical-align: top;
+}
+
+.aad-issuegrid td.aad-time {
+  padding: 0.5em 0.5em 0.5em 0.25em;
+  border-right: 1px solid #bbcced;
+  white-space: nowrap;
+}
+
+.aad-issuegrid td.aad-desc {
+  padding: 0.5em;
+  border-right: 1px solid #bbcced;
+  width: 100%;
+}
+
+.aad-issueview-servicename {
+  font-size: 18px;
+}
+
+.aad-statusview {
+  border: 1px solid #bbcced;
+  margin: 10px 0 0 0;
+  font-size: 15px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-left: 30px;
+}
+
+.aad-statusview td.aad-header {
+  background-color: #e5ecf9;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: middle;
+  height: 26px;
+}
+
+.aad-statusview td.aad-icon {
+  padding: 3px 3px 3px 6px;
+  border-top: 1px solid #bbcced;
+  vertical-align: middle;
+}
+
+.aad-statusview td.aad-service {
+  padding: 3px;
+  width: 200px;
+  border-right: 1px solid #bbcced;
+  border-top: 1px solid #bbcced;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.aad-statusview td.aad-body {
+  text-align: left;
+  height: 30px;
+}
+
+
+.aad-statusview td.aad-status {
+  width: 640px;
+  border-bottom: 1px solid #ebeff9;
+}
+
+.aad-statusview td.aad-footer-col-0 {
+  height: 26px;
+  background-color: #e5ecf9;
+}
+
+.aad-statusview td.aad-footer-col-1 {
+  text-align: left;
+  height: 26px;
+  background-color: #e5ecf9;
+}
+
+.aad-statusview td.aad-footer-col-2 {
+  height: 26px;
+  background-color: #e5ecf9;
+}
+
+.aad-navigation-link {
+  font-size: 14px;
+}
+
+.aad-links-panel {
+  float: right;
+}
+
+.aad-date-header-col {
+  text-align: center;
+  font-size: 15px;
+  width: 14%;
+}
+
+.aad-ruler {
+  background-color: #e8eaed;
+}
+
+.aad-green-circle {
+  background-image: url('green_circle.png');
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.aad-red-circle {
+  background-image: url('red_circle.png');
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.aad-yellow-circle {
+  background-image: url('yellow_circle.png');
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.aad-red-circle-left {
+  background: url('red_circle.png') 0 0;
+  width: 8px;
+  height: 16px;
+  display: inline-block;
+}
+
+.aad-red-circle-right {
+  background: url('red_circle.png') -8px 0;
+  width: 8px;
+  height: 16px;
+  display: inline-block;
+}
+
+.aad-yellow-circle-left {
+  background: url('yellow_circle.png') 0 0;
+  width: 8px;
+  height: 16px;
+  display: inline-block;
+}
+
+.aad-yellow-circle-right {
+  background: url('yellow_circle.png') -8px 0;
+  width: 8px;
+  height: 16px;
+  display: inline-block;
+}
+
+.aad-red-rect {
+  background-image: url('red_rect.png');
+  background-repeat: repeat-x;
+  height: 16px;
+  display: inline-block;
+}
+
+.aad-yellow-rect {
+  background-image: url('yellow_rect.png');
+  background-repeat: repeat-x;
+  height: 16px;
+  display: inline-block;
+}
+
+.aad-issue-bubble-message-icon {
+  vertical-align: top;
+}
+
+.aad-issue-bubble-message-time {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.aad-issue-bubble-message-text {
+  font-size: 13px;
+}
+
+.aad-invisible {
+  display: none;
+}
+
+/* The dasher menu bar */
+.dasher-toolbar {
+  border-left: 1px solid #DDD;
+  display: block;
+  height: 32px;
+  left: 0;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+/* Primary menu */
+.dasher-toolbar li {
+  float: left;
+  position: relative;
+  z-index: 2;
+}
+
+.dasher-toolbar li strong {
+  border-bottom: 1px solid #B2B2B2;
+  border-left: 1px solid white;
+  border-right: 1px solid #DDD;
+  color: #000;
+  cursor: default;
+  display: block;
+  font-weight: normal;
+  padding: 6px 20px 4px;
+  text-decoration: none;
+}
+
+.dasher-toolbar li:focus, .dasher-toolbar li:hover {
+  background-color: #BCD6F0;
+}
+
+.dasher-toolbar a, .dasher-toolbar strong {
+  white-space: nowrap;
+}
+
+/* Drop down menu */
+.dasher-toolbar li ul {
+  background-color: white;
+  display: none;
+  left: 0;
+  position: absolute;
+}
+
+.dasher-toolbar li:hover ul {
+  border: 1px solid #DDD;
+  border-top: 0 solid white;
+  display: block;
+}
+
+.dasher-toolbar li li a {
+  display: block;
+  min-width: 170px;
+  border-left: 1px solid white;
+  border-right: 1px solid #DDD;
+  color: #000;
+  font-weight: normal;
+  padding: 6px 20px 4px;
+  text-decoration: none;
+}
+
+.dasher-toolbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+

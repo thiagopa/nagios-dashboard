@@ -1,0 +1,38 @@
+## -*- coding: utf-8 -*-
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" type="text/css" href="/static/dashboard.css" />
+ <title>Monitoração dos sites</title>
+</head>
+<body>
+<h2>Painel de status das aplicações</h2>
+<article>
+ Esta página fornece informações sobre a estabilidade dos serviços
+</article>
+<table class="aad-statusview" cellpadding="0" cellspacing="0">
+   <tr>
+    <td class="aad-header aad-icon"></td>
+    <td class="aad-header aad-service">Status Atual</td>
+    <td class="aad-header aad-status">Detalhes</td>
+   </tr>
+% for host in hosts :
+   <tr>
+   <td class="aad-body aad-icon" >
+% if host.status!="0" :
+   <span class="aad-red-circle"></span>
+% else :
+   <span class="aad-green-circle"></span>
+% endif
+   </td>
+   <td class="aad-body aad-service" >${host.name}</td>
+   <td class="aad-body aad-status" >${host.message}</td>
+  </tr>
+% endfor
+
+  <tr><td class="aad-footer-col-0"></td><td class="aad-footer-col-1"></td><td class="aad-footer-col-2"><table cellspacing="0" cellpadding="0" class="aad-links-panel"><tbody><tr><td align="left" style="vertical-align: top; "></td><td align="left" style="vertical-align: top; "></td><td align="left" style="vertical-align: top; "></td></tr></tbody></table></td></tr>
+  </tale>
+
+ </body>
+</html>

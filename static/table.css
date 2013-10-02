@@ -1,0 +1,62 @@
+.aad-statusview {
+border: 1px solid #BBCCED;
+margin: 10px 0 0 0;
+font-size: 15px;
+border-spacing: 0;
+border-collapse: collapse;
+}
+
+.aad-statusview td.aad-icon {
+padding: 3px 3px 3px 6px;
+border-top: 1px solid #BBCCED;
+vertical-align: middle;
+}
+
+.aad-statusview td.aad-header {
+background-color: #E5ECF9;
+font-weight: bold;
+text-align: left;
+vertical-align: middle;
+height: 26px;
+}
+
+.aad-statusview td.aad-service {
+padding: 3px;
+width: 200px;
+border-right: 1px solid #BBCCED;
+border-top: 1px solid #BBCCED;
+vertical-align: middle;
+white-space: nowrap;
+}
+
+.aad-statusview td.aad-status {
+width: 640px;
+border-bottom: 1px solid #EBEFF9;
+}
+
+.aad-green-circle {
+background-image: url('green_circle.png');
+width: 16px;
+height: 16px;
+display: inline-block;
+vertical-align: middle;
+}
+
+.aad-red-circle {
+  background-image: url('red_circle.png');
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.aad-statusview td.aad-body {
+text-align: left;
+height: 30px;
+}
+
+.aad-statusview td.aad-footer-col-0 {
+height: 26px;
+background-color: #E5ECF9;
+}
+
